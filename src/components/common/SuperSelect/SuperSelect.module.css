@@ -1,0 +1,16 @@
+.select {
+    padding: 10px 40px 10px 50px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.select option {
+    background: rgba(5, 130, 142, 0.5);
+}
+.select option:checked {
+    background: rgba(5, 130, 142);
+    color: #fff;
+}
+

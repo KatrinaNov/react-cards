@@ -1,0 +1,39 @@
+.checkboxLabel {
+    display: block;
+    margin: 0 0 10px 0;
+    line-height: 22px;
+    font-size: 20px;
+}
+.checkboxLabel .checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    vertical-align: top;
+    outline: none;
+    transition: background 0.3s ease;
+    background: #fff;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+}
+
+/* Checked */
+.checkboxLabel .checkbox:checked {
+    background: url(./checkbox.png) no-repeat center/contain ;
+}
+
+/* Focus */
+.focused .checkbox {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+/* Hover */
+.checkboxLabel .checkbox:hover {
+    filter: brightness(110%);
+}
+/* Active */
+.checkboxLabel .checkbox:active {
+    filter: brightness(80%);
+}
